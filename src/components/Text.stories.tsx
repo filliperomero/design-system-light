@@ -23,10 +23,11 @@ export const CustomTag: StoryObj<TextProps> = {
   args: {
     asChild: true,
     children: (
-      <p>Lorem ipsum.</p>
+      <p>Text with p tag</p>
     )
   },
   argTypes: {
-    children: { table: { disable: true } }
+    children: { table: { disable: true } },
+    asChild: { table: { disable: true } }
   }
 }
