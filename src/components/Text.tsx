@@ -10,6 +10,7 @@ export interface TextProps {
 
 export function Text({ size = 'md', asChild, children }: TextProps) {
   const Comp = asChild ? Slot : 'span'
+  
   return (
     <Comp 
       className={clsx(
